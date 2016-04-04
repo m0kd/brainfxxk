@@ -6,4 +6,4 @@ require './brainfxxk'
 class BF < Brainfxxk
 end
 
-BF.new(ARGF.read, keys).run
+BF.new(ARGF.read).run
